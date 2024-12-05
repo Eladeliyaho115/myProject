@@ -15,6 +15,9 @@ const HomePage = () => {
     //prop-drilling
     return (
         <div>
+            <div>
+                
+            </div>
             <NavbarContext.Provider value={{ user }}>
                 <Navbar />
             </NavbarContext.Provider>
